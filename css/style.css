@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "CrimsonText-Bold.ttf";
+    src: url(../assets/fonts/Crimson_Text/CrimsonText-Bold.ttf);
+    font-family: "CrimsonText-BoldItalic.ttf";
+    src: url(../assets/fonts/Crimson_Text/CrimsonText-BoldItalic.ttf);
+    font-family: "CrimsonText-Italic.ttf";
+    src: url(../assets/fonts/Crimson_Text/CrimsonText-Italic.ttf);
+    font-family: "CrimsonText-Regular.ttf";
+    src: url(../assets/fonts/Crimson_Text/CrimsonText-Regular.ttf);
+    font-family: "MeaCulpa-Regular.ttf";
+    src: url(../assets/fonts/Mea_Culpa/MeaCulpa-Regular.ttf);
+}
+
+/****************HEADER***********/
+
+.header-hombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+}
+
+
+
+.header-hombre nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
+
+.caja-nav{
+    border: solid 5px rgb(255, 255, 255);
+    margin: 30px;
+    padding: 15px;
+    /* font-size: 30px; */
+}
+/*TITULO PRINCIPAL*/
+header{
+    background-color: black;
+    height: 500px;
+}
+.section-header h1{
+    text-align: center;
+    color: gray;
+    font-size: 80px;
+    font-style: italic;
+    text-transform: uppercase;
+} 
+
+IMAGEN LOGO*/
+.section-header img{
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+
+nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    word-spacing: 5px;
+    
+}
+
+/****************MAIN****************/
+
+.header-hombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-self: center; */
+}
+
+.header-hombre nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+.main-pagina-principal{
+    background-color: black;
+}
+
+.main-pagina-principal article h2{
+    color: white;
+    font-family: "MeaCulpa-Regular.ttf";
+    font-size: 50px;
+    text-align: center;
+}
+
+.main-pagina-principal article p{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-pagina-principal section figcaption{
+    color: white;
+    font-size: 20px;
+}
+/**main-hombre****/
+.pagina-hombre{
+    background-color: aqua;
+}
+
+.pagina-hombre article h2{
+    color: black;
+    font-family: "CrimsonText-Bold.ttf";
+    font-size: 50px;
+    text-align: center;
+}
+
+.pagina-hombre article p{
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pagina-hombre section h3{
+    color: black;
+    font-family: "CrimsonText-Italic.ttf";
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.pagina-hombre section h4{
+    color: rgb(3, 3, 3);
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.pagina-hombre section p{
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+    
+}
+
+.icono-carrito{
+    height: 20px;
+    width: 20px;
+}
+
+
+.caja-hombre figcaption ul li{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.comprar{
+    border: solid 2px red;
+    padding: 10px;
+    margin: 50px;
+    display: inline;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.contenedor-main-hombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.caja-hombre{
+    border: solid 5px rgb(0, 0, 0);
+    padding: 40px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align-last: center;
+}
+
+/*main-mujer*/
+.main-mujer{
+    background-color: blueviolet;
+}
+
+.main-mujer article h2{
+    color: yellow;
+    font-family: "CrimsonText-Bold.ttf";
+    font-size: 50px;
+    text-align: center;
+}
+
+.main-mujer article p{
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-mujer section h3{
+    color: black;
+    font-family: "CrimsonText-Italic.ttf";
+    font-size: 20px;
+}
+
+
+
+.marin-mujer section p{
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/*main-unisex*/
+
+.main-unisex{
+    background-color: blanchedalmond;
+}
+
+.main-unisex article h2{
+    color: yellow;
+    font-family: "CrimsonText-Bold.ttf";
+    font-size: 50px;
+    text-align: center;
+}
+
+.main-unisex article p{
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-unisex section h3{
+    color: black;
+    font-family: "CrimsonText-Italic.ttf";
+    font-size: 20px;
+}
+
+.main-unisex section p{
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/*main-arabes*/
+
+.main-arabes{
+    background-color: rgb(228, 255, 131);
+    height: 1700px;
+}
+
+.contenedor-main-arabe{
+    /* border: solid 4px rgb(236, 129, 129);
+    margin: 5px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    gap: 40px;
+}
+
+.caja-arabe{
+    /* border: solid 2px rgb(255, 98, 98); */
+    text-align: center;
+    font-size: 50px;
+    padding: 60px;
+}
+
+.caja-arabe{
+    position: relative;
+}
+
+/* .caja-arabe figcaption{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.137);
+} */
+
+.img-3{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.caja-arabe img{
+    height: 500px;
+    width: 500px;
+    
+    
+}
+
+.main-arabes{
+    background-color: rgb(228, 255, 131);
+    height: 1700px;
+}
+
+
+
+.main-arabes article h2{
+    color: black;
+    font-family: "CrimsonText-Bold.ttf";
+    font-size: 50px;
+    text-align: center;
+}
+
+.main-arabes article p{
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-arabes section h3{
+    color: black;
+    font-family: "CrimsonText-Italic.ttf";
+    font-size: 20px;
+}
+
+.main-arabes section p{
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.main-arabes section figcaption{
+    color: black;
+}
+/*****************************FOOTER************************************/
+footer{
+    height: 300px;
+}
+
+section h4{
+    font-style: italic;
+    font-size: 20px;
+}
+
+section ul li{
+    font-family: "CrimsonText-Regular.ttf";
+}
+
+section iframe{
+    height: 150px;
+    width: 150px;
+}
+
+@media screm and(max-width:641px){
+
+}
+
+/*********************EN CONTRUCCION***********************/
+.en-construccion{
+    font-size: 200px;
+    text-align: center;
+}
