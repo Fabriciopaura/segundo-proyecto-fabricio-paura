@@ -17,17 +17,23 @@
     src: url(../assets/fonts/Mea_Culpa/MeaCulpa-Regular.ttf);
 }
 
-/****************HEADER***********/
+/******************HOMBRE****************/
+/****************HEADER-HOMBRE***********/
+.header-hombre .section-header h1{
+    font-size: 60px;
+    font-family: "CrimsonText-Bold.ttf";
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
 
 .header-hombre{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: rgb(0, 0, 0);
-    height: 600px;
+    height: 650px;
 }
-
-
 
 .header-hombre nav ul{
     display: flex;
@@ -37,51 +43,34 @@
     
 }
 
-.caja-nav{
-    border: solid 5px rgb(255, 255, 255);
-    margin: 30px;
-    padding: 15px;
-    /* font-size: 30px; */
-}
-/*TITULO PRINCIPAL*/
-header{
-    background-color: black;
-    height: 500px;
-}
-.section-header h1{
-    text-align: center;
-    color: gray;
-    font-size: 80px;
-    font-style: italic;
-    text-transform: uppercase;
-} 
-
-IMAGEN LOGO*/
-.section-header img{
-    text-align: center;
+.nav-hombre ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-img{
-    height: 300px;
-    width: 300px;
-}
-
-
-nav ul li a{
-    font-size: 30px;
+.nav-hombre ul li{
+    border: solid 2px rgb(31, 28, 31);
     text-decoration: none;
-    font-weight: bold;
-    word-spacing: 5px;
-    
+    padding: 15px;
+    margin: 30px;
 }
 
-/****************MAIN****************/
+.nav-hombre a{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(8, 8, 44);
+}
+
+
+/****************MAIN-HOMBRE****************/
 
 .header-hombre{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* align-self: center; */
 }
 
 .header-hombre nav ul{
@@ -91,10 +80,6 @@ nav ul li a{
     text-decoration: none;
     
 }
-
-
-
-
 
 .main-pagina-principal{
     background-color: black;
@@ -146,7 +131,7 @@ nav ul li a{
 }
 
 .pagina-hombre section h4{
-    color: rgb(3, 3, 3);
+    color: rgb(12, 12, 12);
     font-style: italic;
     font-size: 20px;
     text-align: center;
@@ -161,25 +146,26 @@ nav ul li a{
     
 }
 
-.icono-carrito{
-    height: 20px;
-    width: 20px;
-}
-
 
 .caja-hombre figcaption ul li{
-    margin: 20px;
+    margin: 10px;
     text-decoration: none;
 }
 
+.icono-carrito{
+    height: 100px;
+    width: 100px;
+}
+
 .comprar{
-    border: solid 2px red;
-    padding: 10px;
-    margin: 50px;
+    border: solid 1px red;
+    padding: 5px;
+    margin: 10px;
     display: inline;
     background-color: black;
     color: white;
     font-size: 20px;
+    bottom: 10px;
 }
 
 .contenedor-main-hombre{
@@ -189,19 +175,69 @@ nav ul li a{
     flex-wrap: wrap;
 }
 
-.caja-hombre{
+.contenedor-main-hombre .caja-hombre{
     border: solid 5px rgb(0, 0, 0);
-    padding: 40px;
-    margin: 40px;
+    padding: 10px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     text-align-last: center;
 }
 
-/*main-mujer*/
+.caja-hombre img{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.caja-hombre figcaption ul .icono-carrito{
+    height: 25px;
+    width: 25px;
+}
+
+/**********MUJER************/
+/***********HEADER-MUJER*********/
+
+.header-mujer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 650px;
+}
+
+.header-mujer .section-header h1{
+    font-size: 60px;
+    font-family: "CrimsonText-BoldItalic.ttf";
+    text-decoration: underline;
+    color: rgb(223, 183, 241);
+    text-align: center;
+}
+
+
+.nav-mujer ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nav-mujer ul li{
+    border: solid 2px rgb(182, 71, 182);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-mujer a{
+    font-size: 30px;
+    text-decoration: none;
+    color: pink;
+}
+
+/***********MAIN-MUJER************/
 .main-mujer{
     background-color: blueviolet;
+    height: 4200px;
 }
 
 .main-mujer article h2{
@@ -230,6 +266,95 @@ nav ul li a{
     color: black;
     font-weight: lighter;
     font-size: 15px;
+}
+
+.contenedor-main-mujer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.caja-mujer{
+    border: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px 20px 0 20px;
+    text-align: center;
+}
+
+.caja-mujer img{
+    height: 200px;
+    width: 200px;
+}
+
+.caja-mujer figcaption ul .icono-carrito{
+    height: 25px;
+    width: 25px;
+}
+
+.caja-mujer figcaption ul{
+    margin: 10px;
+}
+
+.caja-mujer figcaption ul li{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.comprar{
+    border: solid 1px red;
+    padding: 5px;
+    margin: 10px;
+    display: inline;
+    background-color: rgb(94, 37, 37);
+    color: white;
+    font-size: 20px;
+    bottom: 10px;
+}
+
+.publicidad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+}
+
+.publicidad h5{
+    text-align: center;
+    font-size: 50px;
+}
+
+/*******FOOTER-MUJER******/
+.footer-mujer{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(122, 29, 122);
+}
+
+.datos{
+    border: solid 2px rgba(0, 0, 0, 0);
+    padding: 5px;
+    margin: 5px;
+}
+
+.dtos ul li{
+    text-decoration: none;
+}
+
+.datos .suscripciones{
+    text-decoration: none;
+}
+
+.datos h6{
+    font-size: 20px;
+}
+
+.datos iframe{
+    height: 150px;
+    width: 150px;
 }
 
 /*main-unisex*/
