@@ -55,21 +55,35 @@
 }
 
 .nav-hombre ul li{
-    border: solid 2px rgb(31, 28, 31);
+    /* border: solid 10px rgb(31, 28, 31); */
     text-decoration: none;
-    padding: 15px;
-    margin: 30px;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.5s;
 }
 
 .nav-hombre a{
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-    color: rgb(8, 8, 44);
+    color: rgb(212, 212, 236);
+    background-color: rgb(133, 58, 148);
+    
+}
+
+.nav-hombre ul li:hover{
+    background-color: aqua;
 }
 
 
+
+
 /****************MAIN-HOMBRE****************/
+
+.pagina-hombre article h2::first-letter{
+    font-size: 60px;
+    color: red;
+}
 
 .pagina-hombre{
     background-color: aqua;
@@ -88,6 +102,11 @@
     font-style: italic;
     font-size: 30px;
     text-align: center;
+}
+
+.pagina-hombre article p::selection{
+    color: white;
+    background-color: black;
 }
 
 .caja-hombre h3{
@@ -427,6 +446,11 @@
 
 .main-arabes section figcaption{
     color: black;
+}
+
+.carousel-contenedor{
+    width: 600px;
+    
 }
 /*****************************FOOTER************************************/
 footer{
