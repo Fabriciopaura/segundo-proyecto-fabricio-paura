@@ -27,13 +27,17 @@
     text-align: center;
 }
 
-.header-hombre{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: rgb(0, 0, 0);
-    height: 650px;
+.header-hombre .section-header img{
+    text-align: center;
+    margin: 10px;
 }
+
+.header-hombre{
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+}
+
+
 
 .header-hombre nav ul{
     display: flex;
@@ -67,45 +71,9 @@
 
 /****************MAIN-HOMBRE****************/
 
-.header-hombre{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.header-hombre nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-decoration: none;
-    
-}
-
-.main-pagina-principal{
-    background-color: black;
-}
-
-.main-pagina-principal article h2{
-    color: white;
-    font-family: "MeaCulpa-Regular.ttf";
-    font-size: 50px;
-    text-align: center;
-}
-
-.main-pagina-principal article p{
-    color: white;
-    font-style: italic;
-    font-size: 30px;
-    text-align: center;
-}
-
-.main-pagina-principal section figcaption{
-    color: white;
-    font-size: 20px;
-}
-/**main-hombre****/
 .pagina-hombre{
     background-color: aqua;
+    height: 13000px;
 }
 
 .pagina-hombre article h2{
@@ -122,28 +90,20 @@
     text-align: center;
 }
 
-.pagina-hombre section h3{
+.caja-hombre h3{
     color: black;
     font-family: "CrimsonText-Italic.ttf";
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
-.pagina-hombre section h4{
+.caja-hombre h4{
     color: rgb(12, 12, 12);
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    padding: 20px;
-}
-
-
-.pagina-hombre section p{
-    color: black;
-    font-weight: lighter;
-    font-size: 15px;
-    
+    /* padding: 20px; */
 }
 
 
@@ -171,7 +131,7 @@
 .contenedor-main-hombre{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -179,16 +139,12 @@
     border: solid 5px rgb(0, 0, 0);
     padding: 10px;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    text-align-last: center;
+    text-align: center;
 }
 
 .caja-hombre img{
     height: 200px;
     width: 200px;
-    
 }
 
 .caja-hombre figcaption ul .icono-carrito{
