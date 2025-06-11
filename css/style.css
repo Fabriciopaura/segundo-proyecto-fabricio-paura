@@ -17,10 +17,48 @@
     src: url(../assets/fonts/Mea_Culpa/MeaCulpa-Regular.ttf);
 }
 /*******************PAGINA PRINCIPAL************************/
+/**********************HEADER PAGINA PRINCIAPAL****************/
+.section-header{
+    background-image: url(../assets/img/logo/229717389-diseño-de-logotipo-de-perfume-de-lujo-para-cosméticos-y-perfumerías-de-negocios.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: black;
+    height: 500px;
+
+}
+
+.section-header h1{
+    font-family: "CrimsonText-Bold.ttf";
+    color: white;
+    font-size: 80px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    font-family: "CrimsonText-BoldItalic.ttf";
+    padding: 20px;
+    color: black;
+    border: solid 2px rgb(240, 163, 163);
+    background-color: rgb(240, 163, 163);
+}
+
+.navbar-nav .nav-item{
+    padding: 20px;
+}
+
+
 /*****************MAIN PAGINA PRINCIAL************************/
 .main-pagina-principal{
-    height: 1300px;
+    height: 1500px;
 }
+
+.main-pagina-principal article h2{
+    font-family: "CrimsonText-Italic.ttf";
+    font-size: 60px;
+    text-align: center;
+}
+
 .contenedor-cajas{
     display: flex;
     flex-direction: row;
@@ -44,10 +82,27 @@
 }
 
 /****************FOOTER-PAGINA PRINCIAPL**************************/
-footer{
+.footer-pagina-principal{
     height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
+.footer-pagina-principal .datos{
+    border: solid 2px rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.datos ul li{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.footer-pagina-principal .datos h6{
+    font-size: 15px;
+}
 
 /******************HOMBRE****************/
 /****************HEADER-HOMBRE***********/
@@ -68,8 +123,6 @@ footer{
     background-color: rgb(0, 0, 0);
     height: 700px;
 }
-
-
 
 .header-hombre nav ul{
     display: flex;
@@ -107,9 +160,6 @@ footer{
     background-color: aqua;
 }
 
-
-
-
 /****************MAIN-HOMBRE****************/
 
 .pagina-hombre article h2::first-letter{
@@ -119,7 +169,7 @@ footer{
 
 .pagina-hombre{
     background-color: aqua;
-    height: 13000px;
+    height: 13500px;
 }
 
 .pagina-hombre article h2{
@@ -203,6 +253,30 @@ footer{
     width: 25px;
 }
 
+/*****************FOOTER-HOMBRE*********************/
+
+.footer-hombre{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-hombre .datos{
+    border: solid 2px rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.datos ul li{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.footer-hombre .datos h6{
+    font-size: 15px;
+}
+
 /**********MUJER************/
 /***********HEADER-MUJER*********/
 
@@ -244,7 +318,7 @@ footer{
 /***********MAIN-MUJER************/
 .main-mujer{
     background-color: blueviolet;
-    height: 4200px;
+    height: 4400px;
 }
 
 .main-mujer article h2{
@@ -365,10 +439,13 @@ footer{
 }
 
 /***************UNISEX**********/
-/*main-unisex*/
+/****************UNISEX-HEADER**************/
+
+/***********************MAIN-UNISEX*********************/
 
 .main-unisex{
     background-color: blanchedalmond;
+    height: 2300px;
 }
 
 .main-unisex article h2{
@@ -425,6 +502,46 @@ footer{
     padding: 10px;
     margin: 10px;
     text-align: center;
+}
+
+/*******************ARABES*****************************/
+
+/********************ARABES-HEADER*********************/
+
+/*******************ARABES-MAIN*************************/
+
+/*****************FOOTER-UNISEX************************/
+
+.footer-unisex{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(122, 29, 122);
+}
+
+.datos{
+    border: solid 2px rgba(0, 0, 0, 0);
+    padding: 5px;
+    margin: 5px;
+}
+
+.dtos ul li{
+    text-decoration: none;
+}
+
+.datos .suscripciones{
+    text-decoration: none;
+}
+
+.datos h6{
+    font-size: 20px;
+}
+
+.datos iframe{
+    height: 150px;
+    width: 150px;
 }
 
 /*main-arabes*/
@@ -512,7 +629,39 @@ footer{
 }
 
 
-/*****************************FOOTER************************************/
+/*****************************FOOTER-ARABES************************************/
+.footer-arabes{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(122, 29, 122);
+}
+
+.datos{
+    border: solid 2px rgba(0, 0, 0, 0);
+    padding: 5px;
+    margin: 5px;
+}
+
+.dtos ul li{
+    text-decoration: none;
+}
+
+.datos .suscripciones{
+    text-decoration: none;
+}
+
+.datos h6{
+    font-size: 20px;
+}
+
+.datos iframe{
+    height: 150px;
+    width: 150px;
+}
+
 footer{
     height: 300px;
 }
@@ -535,8 +684,3 @@ section iframe{
 
 }
 
-/*********************EN CONTRUCCION***********************/
-.en-construccion{
-    font-size: 200px;
-    text-align: center;
-}
