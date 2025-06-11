@@ -16,6 +16,38 @@
     font-family: "MeaCulpa-Regular.ttf";
     src: url(../assets/fonts/Mea_Culpa/MeaCulpa-Regular.ttf);
 }
+/*******************PAGINA PRINCIPAL************************/
+/*****************MAIN PAGINA PRINCIAL************************/
+.main-pagina-principal{
+    height: 1300px;
+}
+.contenedor-cajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.caja-pagina-principal{
+    margin: 20px;
+    padding: 20px;
+}
+
+.caja-pagina-principal figcaption{
+    font-size: 50px;
+    text-align: center;
+}
+
+.img-principal{
+    height: 500px;
+    width: 500px;
+}
+
+/****************FOOTER-PAGINA PRINCIAPL**************************/
+footer{
+    height: 300px;
+}
+
 
 /******************HOMBRE****************/
 /****************HEADER-HOMBRE***********/
@@ -332,6 +364,7 @@
     width: 150px;
 }
 
+/***************UNISEX**********/
 /*main-unisex*/
 
 .main-unisex{
@@ -362,6 +395,36 @@
     color: black;
     font-weight: lighter;
     font-size: 15px;
+}
+
+.contenedor-main-unisex img{
+    height: 200px;
+    width: 200px;
+}
+
+.carousel-contenedor{
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.caja-unisex .icono-carrito{
+    height: 25px;
+    width: 25px;
+}
+
+.contenedor-main-unisex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor-main-unisex .caja-unisex{
+    border: solid 5px rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 /*main-arabes*/
@@ -448,10 +511,7 @@
     color: black;
 }
 
-.carousel-contenedor{
-    width: 600px;
-    
-}
+
 /*****************************FOOTER************************************/
 footer{
     height: 300px;
